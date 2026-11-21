@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" aria-label="Solis abstract white sun emblem">
+<!-- Original abstract solar mark: four swept blades orbit a negative-space core -->
+<g fill="#FFFFFF">
+<path d="M100 10 C113 39 122 52 117 71 C112 82 105 87 100 91 C91 73 86 59 91 43 Z"/>
+<path d="M190 100 C161 113 148 122 129 117 C118 112 113 105 109 100 C127 91 141 86 157 91 Z"/>
+<path d="M100 190 C87 161 78 148 83 129 C88 118 95 113 100 109 C109 127 114 141 109 157 Z"/>
+<path d="M10 100 C39 87 52 78 71 83 C82 88 87 95 91 100 C73 109 59 114 43 109 Z"/>
+<path d="M35 35 C61 44 75 47 83 64 C87 74 86 82 84 89 C65 84 54 77 47 62 Z"/>
+<path d="M165 35 C156 61 153 75 136 83 C126 87 118 86 111 84 C116 65 123 54 138 47 Z"/>
+<path d="M165 165 C139 156 125 153 117 136 C113 126 114 118 116 111 C135 116 146 123 153 138 Z"/>
+<path d="M35 165 C44 139 47 125 64 117 C74 113 82 114 89 116 C84 135 77 146 62 153 Z"/>
+</g>
+<circle cx="100" cy="100" r="14" fill="#FFFFFF"/>
+<circle cx="100" cy="100" r="6" fill="#0c0909"/>
+</svg>
