@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SOLIS — Visual Art & Freestyling</title>
+<meta name="description" content="Meet SOLIS, a creative collective of Rocket League freestylers, visual artists, editors and designers. Beyond the Stars.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SOLIS">
+<meta property="og:title" content="SOLIS — Beyond the Stars">
+<meta property="og:description" content="Meet the SOLIS roster. Freestylers, visual artists, editors, designers, and more.">
+<meta property="og:url" content="https://solisfx.netlify.app/">
+<meta property="og:image" content="https://solisfx.netlify.app/solis-rainbow-logo.png">
+<meta property="og:image:alt" content="SOLIS rainbow flower logo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SOLIS — Beyond the Stars">
+<meta name="twitter:description" content="Meet the SOLIS roster. Freestylers, visual artists, editors, designers, and more.">
+<meta name="twitter:image" content="https://solisfx.netlify.app/solis-rainbow-logo.png">
+<meta name="theme-color" content="#080b12">
+<link rel="icon" type="image/png" sizes="512x512" href="favicon.png"><link rel="shortcut icon" href="favicon.ico"><link rel="apple-touch-icon" href="favicon.png"><link rel="stylesheet" href="style.css"></head>
+<body><div id="solisIntro" class="solis-intro" aria-label="SOLIS opening animation">
+  <div class="intro-light intro-light-a" aria-hidden="true"></div>
+  <div class="intro-light intro-light-b" aria-hidden="true"></div>
+  <div class="intro-center"><img class="intro-symbol" src="sun-logo.svg" alt="SOLIS emblem"><div class="intro-wordmark">SOLIS</div><div class="intro-subline">VISUAL ART <span>✦</span> FREESTYLING</div></div>
+  <div class="intro-reveal" aria-hidden="true"></div>
+  <button type="button" id="skipIntro" class="intro-skip">SKIP INTRO ↗</button>
+</div>
+
+<header class="nav"><a class="brand" href="#home"><img class="sun-logo" src="sun-logo.svg" alt="Solis sun logo"><span data-edit="siteName">ASCEND</span><small>CREATIVE COLLECTIVE</small></a><button class="menu" id="menuBtn">☰</button><nav id="navLinks"><a href="#home" data-nav="home">Home</a><a href="#news" data-nav="news">News</a><a href="#roster" data-nav="roster">Roster</a><a href="#apply" data-nav="apply">Apply</a></nav></header>
+<div class="transition-wipe" aria-hidden="true"><span class="wipe-sun"><img src="sun-logo.svg" alt=""></span><span class="wipe-name">SOLIS</span></div><main>
+<section id="home" class="page active"><div class="hero"><div class="orb"></div><div class="sun-flare"></div><div class="hero-content"><div class="eyebrow" data-edit="eyebrow">ROCKET LEAGUE • FREESTYLE • CREATIVE</div><h1 data-edit="heroTitle">BEYOND THE<br>STARS.</h1><p data-edit="heroDescription">A new era of freestyling, creativity and competition. Welcome to the next level.</p><div class="actions"><a href="#roster" class="primary">MEET THE ROSTER ↗</a><a href="#apply" class="outline">JOIN US →</a></div></div><div class="hero-mark"><img src="sun-logo.svg" alt="Radiant sun emblem"></div></div><div class="ticker"><span>CREATE WITHOUT LIMITS</span><span>☀</span><span>MAKE YOUR OWN MARK</span><span>☀</span><span>EST. <b data-edit="established">2026</b></span></div><div class="intro"><div class="eyebrow">WHO WE ARE</div><h2 data-edit="aboutTitle">MORE THAN A TEAM.</h2><p data-edit="aboutDescription">We bring together ambitious players, editors and designers to push Rocket League content further.</p></div></section>
+<section id="news" class="page"><div class="page-head"><div class="eyebrow">THE LATEST</div><h1 data-edit="newsTitle">LATEST FROM THE TEAM.</h1><p data-edit="newsDescription">Announcements, results and everything happening with us.</p></div><div class="news-list" id="newsCards"></div></section>
+<section id="roster" class="page"><div class="page-head"><div class="eyebrow">THE PEOPLE</div><h1 data-edit="rosterTitle">MEET THE ROSTER.</h1><p data-edit="rosterDescription">The freestylers, editors, designers and staff behind the team.</p></div><div class="filters" id="filters"></div><div class="roster-directory" id="rosterCards"></div></section>
+<section id="apply" class="page"><div class="page-head"><div class="eyebrow">YOUR NEXT CHAPTER</div><h1 data-edit="applyTitle">JOIN THE TEAM.</h1><p data-edit="applyDescription">Whether you freestyle, edit or design, tell us about yourself.</p></div><form id="applyForm" class="application" name="solis-applications" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field"><input type="hidden" name="form-name" value="solis-applications"><p class="bot-field" aria-hidden="true"><label>Leave this empty<input name="bot-field" tabindex="-1" autocomplete="off"></label></p><label>NAME / CREATOR NAME<input name="Creator" required placeholder="Your name"></label><label>DISCORD USERNAME<input name="Discord" required placeholder="username"></label><div class="two"><label>APPLYING AS<select name="Role" required><option>Freestyler</option><option>Visual Artist</option><option>Illustrator</option><option>Photographer</option><option>Editor</option><option>Designer</option><option>Motion Designer</option></select></label><label>AGE<input type="number" min="1" name="Age" required placeholder="Your age"></label></div><label>YOUR CREATIVE SPECIALTY<input name="Specialty" placeholder="Digital art, freestyle clips, animation, etc."></label><label>LINKS<input name="Links" placeholder="Portfolio, Instagram, TikTok, YouTube"></label><label>WHY DO YOU WANT TO JOIN?<textarea name="Why" rows="5" required></textarea></label><button class="primary" type="submit">SUBMIT APPLICATION ↗</button><p class="note" data-edit="applyNote">Your application will be sent securely to the SOLIS team. Please submit only information you are comfortable sharing.</p></form></section>
+</main>
+<footer><span><span data-edit="footerName">ASCEND</span> © <span id="year"></span></span><span data-edit="footerText">VISUAL ART & FREESTYLING · EST. 2026</span><a href="#home">BACK TO TOP ↑</a></footer>
+<script src="content.js"></script><script src="script.js"></script></body></html>
