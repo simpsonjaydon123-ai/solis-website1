@@ -41,6 +41,14 @@ window.SITE_CONTENT = {
       "socials": {
         "tiktok": "https://www.tiktok.com/@apez.ae"
       }
+    },
+    {
+      "name": "Vancee",
+      "role": "Leader",
+      "tag": "@vancee",
+      "image": "Solis Avatar (vancee).png",
+      "link": "",
+      "socials": {}
     }
   ]
 };
