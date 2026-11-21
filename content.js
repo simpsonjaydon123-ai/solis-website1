@@ -36,7 +36,7 @@ window.SITE_CONTENT = {
       "name": "APEZ",
       "role": "Founder",
       "tag": "@apez",
-      "image": "SOLIS AVATAR.png",
+      "image": "Solis Avatar (Apez).png",
       "link": "",
       "socials": {
         "tiktok": "https://www.tiktok.com/@apez.ae"
