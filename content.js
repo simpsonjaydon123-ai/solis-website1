@@ -36,63 +36,7 @@ window.SITE_CONTENT = {
       "name": "APEZ",
       "role": "Founder",
       "tag": "@apez",
-      "image": "apez-avatar.png",
-      "link": ""
-    },
-    {
-      "name": "Leader Name",
-      "role": "Leader",
-      "tag": "@leader",
-      "image": "",
-      "link": ""
-    },
-    {
-      "name": "Co-Leader Name",
-      "role": "Co-Leader",
-      "tag": "@coleader",
-      "image": "",
-      "link": ""
-    },
-    {
-      "name": "Manager Name",
-      "role": "Management",
-      "tag": "@manager",
-      "image": "",
-      "link": ""
-    },
-    {
-      "name": "Moderator Name",
-      "role": "Moderator",
-      "tag": "@moderator",
-      "image": "",
-      "link": ""
-    },
-    {
-      "name": "Social Lead",
-      "role": "Social Media Manager",
-      "tag": "@social",
-      "image": "",
-      "link": ""
-    },
-    {
-      "name": "Artist Name",
-      "role": "Visual Artist",
-      "tag": "@artist",
-      "image": "",
-      "link": ""
-    },
-    {
-      "name": "Freestyler Name",
-      "role": "Freestyler",
-      "tag": "@freestyler",
-      "image": "",
-      "link": ""
-    },
-    {
-      "name": "Editor Name",
-      "role": "Editor",
-      "tag": "@editor",
-      "image": "",
+      "image": "SOLIS AVATAR.png",
       "link": ""
     }
   ]
