@@ -37,7 +37,10 @@ window.SITE_CONTENT = {
       "role": "Founder",
       "tag": "@apez",
       "image": "SOLIS AVATAR.png",
-      "link": ""
+      "link": "",
+      "socials": {
+        "tiktok": "https://www.tiktok.com/@apez.ae"
+      }
     }
   ]
 };
